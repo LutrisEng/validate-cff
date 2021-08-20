@@ -1,0 +1,11 @@
+name: Validate CITATION.cff file
+description: "Validate your repository's CITATION.cff file against the schema"
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v2
+    - run: pip install ruamel.yaml jsonschema
+    - run: mkdir .validate-cff
+    - run: wget https://raw.githubusercontent.com/citation-file-format/citation-file-format/main/{examples/validator.py,schema.json}
+      working-directory: ./.validate-cff
+    - run: python .validate-cff/validator.py -s .validate-cff/schema.json -d CITATION.cff
