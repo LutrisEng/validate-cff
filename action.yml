@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021 Lutris Engineering, Inc
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileContributor: Piper McCorkle <piper@lutris.engineering>
+
 name: Validate CITATION.cff file
 description: "Validate your repository's CITATION.cff file against the schema"
 runs:
