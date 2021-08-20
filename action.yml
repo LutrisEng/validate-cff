@@ -11,5 +11,5 @@ runs:
     - run: wget https://raw.githubusercontent.com/citation-file-format/citation-file-format/main/{examples/validator.py,schema.json}
       working-directory: ./.validate-cff
       shell: bash
-    - run: .validate-cff/validator.py -s .validate-cff/schema.json -d CITATION.cff
-      shell: python
+    - run: python .validate-cff/validator.py -s .validate-cff/schema.json -d CITATION.cff
+      shell: bash
