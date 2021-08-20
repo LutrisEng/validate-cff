@@ -4,6 +4,9 @@
 
 name: Validate CITATION.cff file
 description: "Validate your repository's CITATION.cff file against the schema"
+branding:
+  icon: check-square
+  color: green
 runs:
   using: composite
   steps:
