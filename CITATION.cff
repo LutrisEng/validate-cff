@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText: 2021 Lutris Engineering, Inc
-# SPDX-License-Identifier: BlueOak-1.0.0 OR BSD-2-Clause-Patent
+# SPDX-License-Identifier: CC0-1.0
 # SPDX-FileContributor: Piper McCorkle <piper@lutris.engineering>
 
 cff-version: 1.2.0
@@ -17,4 +17,4 @@ title: "validate-cff"
 version: 1.0.0
 date-released: 2021-08-20
 url: "https://github.com/LutrisEng/validate-cff"
-license: CC0
+license: CC0-1.0
