@@ -19,5 +19,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: LutrisEng/validate-cff@v1
+    - uses: LutrisEng/validate-cff@v1.0.0
 ```
